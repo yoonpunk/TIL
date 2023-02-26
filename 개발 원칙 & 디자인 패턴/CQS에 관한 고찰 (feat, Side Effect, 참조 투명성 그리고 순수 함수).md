@@ -1,3 +1,7 @@
+## CQS에 관한 고찰 (feat, Side Effect, 참조 투명성 그리고 순수 함수)
+
+---
+
 ### CQS란?
 CQS는 함수를 크게 두 가지로 분류해서 구현하는 원리이다. Martin Fowler는 그의 [블로그](https://martinfowler.com/bliki/CommandQuerySeparation.html)에서 CQS의 Command와 Query를 아래와 같이 정의했다. (CQS)의 개념을 최초로 소개한 사람은 Bertrand Meyor이다.)
 
