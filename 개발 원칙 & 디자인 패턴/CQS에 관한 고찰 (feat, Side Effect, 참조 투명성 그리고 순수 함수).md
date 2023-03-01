@@ -8,7 +8,7 @@ CQS는 함수를 크게 두 가지로 분류해서 구현하는 원리이다. Ma
 
 번역해 보면 아래와 같다.
 
-> Queries: 관찰 가능한 시스템의 상태를 변경하지 않고, 그 결과를 반환하는 함수
+> Queries: 관찰 가능한 시스템의 상태를 변경하지 않고, 그 결과를 반환하는 함수 <br>
 > Commands: 관찰 가능한 시스템의 상태를 변경하지만 그 결과를 반환하지 않는 함수
 
 Java에서 주로 사용하는 getter/setter 통해 쉽게 설명하자면, 객체의 상태를 변경하지 않고 반환하는 getter 메서드는 Query에 속하며 객체의 상태를 변경하는 대신 아무것도 반환하지 않는 setter 메서드는 Command에 속한다고 할 수 있다.
@@ -183,8 +183,8 @@ CQS와 관련된 다음 글에서는 개인적으로 진행 중인 토이프로�
 ---
 
 #### 참고 자료
-https://martinfowler.com/bliki/CommandQuerySeparation.html
-https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
-https://en.wikipedia.org/wiki/Side_effect_(computer_science)
-https://en.wikipedia.org/wiki/Referential_transparency
-https://en.wikipedia.org/wiki/Pure_function
+https://martinfowler.com/bliki/CommandQuerySeparation.html  
+https://en.wikipedia.org/wiki/Command%E2%80%93query_separation  
+https://en.wikipedia.org/wiki/Side_effect_(computer_science)  
+https://en.wikipedia.org/wiki/Referential_transparency  
+https://en.wikipedia.org/wiki/Pure_function  
