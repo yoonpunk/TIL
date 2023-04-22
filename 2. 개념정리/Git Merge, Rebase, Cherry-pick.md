@@ -56,3 +56,8 @@ Cherry-pick은 다른 branch의 특정 commit만 현재 branch에 가져오고 �
 위 그림에서와 같이 develop branch에 feature branch의 commit “C”만 가져와 병합하는 방법이 cherry-pick이다.
 
 cherry-pick을 남발하면, commit history가 꼬일 수 있으므로 주의해서 사용해야 한다.
+
+#### 참고자료
+https://www.inflearn.com/course/%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C-%EC%98%A8-git/dashboard  
+https://git-scm.com/book/ko/v2  
+https://www.youtube.com/watch?v=b72mDco4g78
