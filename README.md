@@ -19,6 +19,7 @@ Today I Learned. <br>
 2. 개념정리
    * Git
       * [Git 기초](/2.%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Git%20%EA%B8%B0%EC%B4%88.md)
+      * [Git 명령어로 알아보는 내부 원리](/2.%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Git%20%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94%20%EB%82%B4%EB%B6%80%20%EC%9B%90%EB%A6%AC.md)
    
 
 3. 노트필기
