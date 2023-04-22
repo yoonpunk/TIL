@@ -78,5 +78,5 @@ staging area에 변경 사항이 있으면 실행 불가하며 working directory
 --- 
 
 #### 참고자료
-https://www.inflearn.com/course/%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C-%EC%98%A8-git/dashboard
+https://www.inflearn.com/course/%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C-%EC%98%A8-git/dashboard  
 https://git-scm.com/book/ko/v2
