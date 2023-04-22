@@ -74,3 +74,9 @@ staging area에 변경 사항이 있으면 실행 불가하며 working directory
 * ```git cherry-pick [comid1] [comid2] [comid3]```: 복수 개의 commit을 cherry-pick
 * ```git cherry-pick [startcommit]..[endcommit]```: 특정 구간의 commit을 cherry-pick
 * ```git cherry-pick —continue```: cherry-pick 과정 중 발생하는 충돌을 해결한 후 cherry-pick을 마무리
+
+--- 
+
+#### 참고자료
+https://www.inflearn.com/course/%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C-%EC%98%A8-git/dashboard
+https://www.notion.so/yoonpunk/Git-0ac57b84a75e4d17a7f0163df9b64866?pvs=4#860d310d694e4fa8a0546c68aeb27a48
