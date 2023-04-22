@@ -1,11 +1,11 @@
-# git 기초
+# Git 기초
 
-## git 저장소의 영역
+## Git 저장소의 영역
 * ```working directory(or working copy)```: 실제 프로젝트 파일이 위치하는 곳. 파일 수정 삭제 가능
 * ```staging area(or index, cache)```: 커밋 대기 영역
 * ```local repository```: 커밋된 결과물이 저장되는 영역
 
-## git 명령어 사용법
+## Git 명령어 사용법
 * ```git [command] —help```: command의 매뉴얼 보기
 * ```git init```: git Repository 초기화, 버전 정보를 저장할 .git 디렉터리를 생성
 * ```git status```: 현재 저장소 상태 확인
