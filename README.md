@@ -24,5 +24,5 @@ Today I Learned. <br>
 
 4. 오늘의 코드
    * Java
-      * [Java Stream을 통한 List -> Map 변환](4.%20오늘의%20코드/Java/Java%20Stream을%20통한%20List%20->%20Map%20변환.md)
+      * [Java Collectors.toMap()을 통한 List -> Map 변환](4.%20오늘의%20코드/Java/Java%20Collectors.toMap()을%20통한%20List%20->%20Map%20변환.md)
    

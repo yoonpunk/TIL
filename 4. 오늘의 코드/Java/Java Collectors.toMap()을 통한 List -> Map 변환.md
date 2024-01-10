@@ -1,7 +1,7 @@
-# Java Stream을 통한 List -> Map 변환
+# Java Collectors.toMap()을 통한 List -> Map 변환
 
 Java 개발 중 엔티티나 DTO의 키를 통해 List를 Map으로 변환하는 일이 자주 생긴다.  
-그때, Java Stream을 통해 아래와 같이 간단하게 Map으로 변환할 수 있다.
+그때, Java Collectors.toMap()을 통해 아래와 같이 간단하게 Map으로 변환할 수 있다.
 
 ```java
 // ProductDto의 List를 생성
@@ -49,4 +49,4 @@ final Map<Long, ProductDto> productDtoMap = productDtoList.stream()
 
 앞으로는 쉽게 List에서 Map으로 변환하자!  
 
-테스트 코드 참고: https://github.com/yoonpunk/java-example/blob/main/src/test/java/com/example/java/stream/StreamListToMap.java
+테스트 코드 참고: https://github.com/yoonpunk/java-example/blob/main/src/test/java/com/example/java/stream/CollectorsListToMap.java
