@@ -59,7 +59,7 @@ git switch를 통해 branch가 변경되면 HEAD 정보를 저장하고 있는 H
 
 서로 다른 파일을 수정하거나, 같은 파일의 서로 다른 영역을 수정했을 경우에는 auto-merge를 통해 자동으로 병합이 이루어지고 해당 merge 내용에 대한 commit이 생성된다.  
 
-서로 같은 파일의 같은 영역을 수정했을 경우에는 충돌이 발생한다. 이 경우에는 git이 충돌이 발생한 부분을 나타내주므로 이를 수정하여 commit하면 된다.
+서로 같은 파일의 같은 영역을 수정했을 경우에는 충돌이 발생한다. 이 경우에는 git이 충돌이 발생한 부분을 나타내주므로 이를 수정하여 commit 하면 된다.
 
 ## git merge 충돌 처리
 
@@ -121,8 +121,8 @@ Git은 3-way merge 전략을 사용해 merge를 수행한다.
  ## git reset의 대표적인 세 가지 옵션
 
 git reset의 대표적인 세 가지 옵션은 아래와 같다.
-* ```git reset —soft [commitid]```: commitid 시점까지 repository 영역만 reset하고 index와 working directory는 유지된다.
-* ```git reset —mixed [commitid]```: commitid 시점까지 repository 영역과 index 영역을 reset하고 working directory는 유지한다.
+* ```git reset —soft [commitid]```: commitid 시점까지 repository 영역만 reset 하고 index와 working directory는 유지된다.
+* ```git reset —mixed [commitid]```: commitid 시점까지 repository 영역과 index 영역을 reset 하고 working directory는 유지한다.
 * ```git reset —hard [commitid]```: commitid 시점까지 모든 영역을 전부 reset 한다.
 
 |옵션\영역|wirking directory|index|repository|

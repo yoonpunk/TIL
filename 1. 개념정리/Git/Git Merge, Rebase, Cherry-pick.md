@@ -31,7 +31,7 @@ Rebase는 한 branch를 다른 branch로 합치는 방법 중 하나로, Merge�
 
 위 그림과 같이 Feature branch의 base를 Matser branch와의 공통 base에서 master branch의 마지막 commit으로 재설정하여 하나의 branch로 합치는 방법이 rebase다.
 
-Feature branch로 진행된 2개의 commit을 Master branch의 최종 commit 이후의 새로운 commit으로 재 commit하는 과정을 거친다.   
+Feature branch로 진행된 2개의 commit을 Master branch의 최종 commit 이후의 새로운 commit으로 재 commit 하는 과정을 거친다.   
 (Feature branch의 기존 commit 2개는 rebase된 이후의 2개의 commit과는 다르다)
 
 이를 통해 Merge와는 다르게 rebase는 commit history를 선형적으로 만든다.

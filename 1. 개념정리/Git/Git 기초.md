@@ -33,7 +33,7 @@
     * ```-```: branch 1의 내용
     * ```+```: branch 2의 내용
 * ```git reflog```: git Repository에서 수행한 작업 로그를 출력
-* ```git reset [commit] —hard```: 특정 버전으로 되돌아감, 변경 사항(working directory, staging aread) 전부 삭제. remote repository에 공유된 커밋은 reset 하지말 것
+* ```git reset [commit] —hard```: 특정 버전으로 되돌아감, 변경 사항(working directory, staging aread) 전부 삭제. remote repository에 공유된 커밋은 reset 하지 말 것
 * ```git reset HEAD —hard```: 최신 commit으로 하드 reset
 * ```git revert [commit]```: 특정 버전의 변경 사항을 되돌리며 그 내용을 커밋.
 staging area에 변경 사항이 있으면 실행 불가하며 working directory에서의 변경 사항과 revert에서 수정될 파일과 충돌될 경우에도 실행 불가
